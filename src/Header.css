@@ -1,0 +1,38 @@
+.navBar {
+    background-color: rgb(11, 25, 41) !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 8;
+}
+
+#storeLogo {
+    height: 3rem;
+    margin: 0.5rem;
+}
+
+.nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+#loginBtn {
+    background: linear-gradient(-225deg,
+            #ac32e3 10%,
+            #7918f2 60%,
+            #4801ff 100%);
+}
+
+
+@media (max-width:600px) {
+    #aboutUsMenu {
+        font-size: 1rem;
+    }
+
+    #storeLogo {
+        height: 2rem
+    }
+}

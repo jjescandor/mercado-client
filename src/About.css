@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&family=PT+Sans:ital@1&display=swap");
+
+.aboutH1 {
+  text-align: center;
+}
+
+.aboutDiv {
+  text-align: center;
+  margin: 10rem 0;
+  align-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color: white;
+}
+
+h1 {
+  color: white;
+}
+
+#container {
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.aboutRow {
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center !important;
+}
+
+.aboutCard {
+  width: 450px !important;
+  height: 700px;
+  background-color: rgb(38, 37, 37);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 5px;
+  border-radius: 3%;
+}
+
+.card-body {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: -1rem 0 0 0 !important;
+  padding: none !important;
+  height: 40% !important;
+}
+
+#aboutCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+
+.cardImg {
+  width: 270px !important;
+  height: 270px !important;
+  border-radius: 50%;
+  margin: 2rem 0 0 0;
+}
+
+.cardSocial {
+  display: flex;
+  justify-content: center;
+}
+
+.cardSocial h2 {
+  margin: 5px 1rem;
+  color: white;
+}
+
+.cardTextDiv {
+  overflow: hidden;
+  height: 150px;
+
+}
+
+#read-more:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+
+@media (max-width:600px) {
+  .aboutRow {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center !important;
+  }
+
+  .aboutCard {
+    width: 400px;
+  }
+
+  .aboutRow {
+    width: 100%;
+  }
+
+}
+
+#outerBorder {
+  background: linear-gradient(-225deg,
+      #ac32e3 10%,
+      #7918f2 60%,
+      #4801ff 100%) !important;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  margin: 2rem;
+  border-radius: 3%;
+}
+
+#readmoreHeader,
+#readmoreBody,
+#readmoreFooter {
+  border: none;
+  background-color: rgb(54, 52, 52);
+}
+
+#readmoreBtn {
+  background: linear-gradient(-225deg,
+      #ac32e3 10%,
+      #7918f2 60%,
+      #4801ff 100%) !important;
+  margin: 10px;
+  width: 10rem;
+  height: 3rem;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  height: 48;
+  padding: 0 30px;
+}

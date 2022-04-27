@@ -1,0 +1,13 @@
+#footer {
+  
+  width: 10rem;
+  height: 10rem;
+
+}
+#footerContainer {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  align-items: center;
+  color: dimgray;
+}

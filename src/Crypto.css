@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.coin-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 64px;
+    color: #fff;
+}
+
+.coin-search {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.coint-text {
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.coin-input {
+    padding-left: 16px;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    background-image: linear-gradient(-225deg,
+            #ac32e3 10%,
+            #7918f2 60%,
+            #4801ff 100%);
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+
+.coin-container {
+    display: flex;
+    justify-content: center;
+}
+
+.coin-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
+    border-bottom: 1px solid #d7d7d7;
+    width: 1200px;
+}
+
+.coin {
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+    min-width: 300px;
+}
+
+.coin h1 {
+    font-size: 16px;
+    width: 150px
+}
+
+.coin img {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.coin-symbol {
+    text-transform: uppercase;
+}
+
+.coin-data {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.coin-price {
+    width: 100px;
+}
+
+.coin-volume {
+    width: 200px;
+
+}
+
+.coin-marketcap {
+    width: 240px
+}
+
+
+.coin-percent {
+    width: 80px;
+}
+
+.red {
+    color: #f00606;
+}
+
+.green {
+    color: green;
+}
+
+@media (max-width: 800px) {
+
+
+    .coin-row {
+        flex-direction: column;
+        width: 80vw;
+        height: 100%;
+        align-items: left;
+        align-content: right;
+    }
+
+    .coin-data {
+        flex-direction: column;
+        align-items: left;
+        align-content: right;
+    }
+
+    .coin {
+        justify-content: center;
+        height: 30px;
+        align-items: center;
+        align-content: center;
+        margin: 10px auto;
+
+    }
+
+    p {
+        text-align: left;
+        margin: 5px 0;
+    }
+}
+
+#addToCryptoWatchList:hover {
+    border-radius: 5%;
+    padding: none;
+    background: linear-gradient(-225deg,
+            #ac32e3 10%,
+            #7918f2 60%,
+            #4801ff 100%);
+}
+
+@media (max-width: 600px) {
+    #addToCryptoWatchList {
+        width: 98%;
+        margin: 5px;
+        border-radius: 10%;
+    }
+
+    #addToCryptoWatchList:hover {
+        border-radius: 2%;
+        margin: 5px 0;
+        background: linear-gradient(-225deg,
+                #ac32e3 10%,
+                #7918f2 60%,
+                #4801ff 100%);
+    }
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    .coin-row {
+        flex-direction: column;
+        width: 80vw;
+        height: 100%;
+        align-items: center;
+        align-content: center;
+    }
+
+    .coin-data {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .coin {
+        justify-content: center;
+        height: 30px;
+        align-items: center;
+        align-content: center;
+        margin: 10px auto;
+    }
+
+    .coin {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    p {
+        text-align: center;
+        margin: 5px 0;
+    }
+}

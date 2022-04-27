@@ -1,0 +1,152 @@
+#menuDiv {
+    display: flex;
+}
+
+#menuCart {
+    font-size: 2rem !important;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#menu {
+    font-size: 3rem !important;
+    color: white;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+    background-color: rgb(54, 52, 52) !important;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    color: rgb(11, 25, 41) !important;
+}
+
+#minNftBtn {
+    background: linear-gradient(-225deg,
+            #ac32e3 10%,
+            #7918f2 60%,
+            #4801ff 100%) !important;
+    margin: 10px;
+    width: 10rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    height: 48;
+    padding: 0 30px;
+}
+
+#devBtn {
+    background: linear-gradient(-225deg,
+            #ac32e3 10%,
+            #7918f2 60%,
+            #4801ff 100%) !important;
+    margin: 10px;
+    width: 10rem;
+    height: 3rem;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    height: 48;
+    padding: 0 30px;
+}
+
+#profileImage {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#wallet {
+    width: 350px;
+    height: 200px;
+    background: linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%) !important;
+    box-shadow: 0 3px 5px 2px rgba(255, 105, 135, .3);
+    margin: 2rem 0;
+}
+
+#connectWallet {
+    border: 1px solid rgb(11, 25, 41);
+    padding: 10px;
+    border-radius: 4%;
+    color: rgb(144, 202, 249);
+    border-color: rgb(1, 30, 60);
+}
+
+#wallet {
+    display: flex;
+    justify-content: space-between;
+}
+
+#wallet div {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+#wallet div p,
+#wallet div h5 {
+    color: white !important;
+}
+
+#bottomBtns {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logOut {
+    padding: 0 1.5rem;
+    background-color: rgb(11, 25, 41);
+    color: rgb(144, 202, 249);
+    border-radius: 3%;
+}
+
+#ether {
+    font-size: 3rem;
+    margin: 1rem;
+}
+
+#etherImg {
+    width: 60%;
+}
+
+#editProfile {
+    transition-duration: 350ms;
+}
+
+#editProfile:hover {
+    cursor: grab;
+    transform: scale(1.05);
+    transition-duration: 350ms;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3), 0 2px 3px rgba(0, 0, 0, 0.22);
+}
+
+#editProfile:active {
+    box-shadow: none;
+    transform: scale(1);
+}
+
+@media(max-width: 600px) {
+    .css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+        width: 70%;
+    }
+
+    #menuCart {
+        font-size: 1.5rem !important;
+        margin: 0;
+
+    }
+
+    #menu {
+        font-size: 2rem !important;
+        color: white;
+        cursor: pointer;
+        margin: 0;
+    }
+}

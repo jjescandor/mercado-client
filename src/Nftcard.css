@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(18, 41, 68)
+}
+
+.myNFTDiv {
+  margin: 6rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.resRow {
+  width: 100%;
+  margin: auto 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+}
+
+.myNftCard {
+  width: 300px;
+  height: 400px;
+  margin: 3rem auto;
+  border-radius: 3%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+  background-color: rgb(54, 52, 52);
+  color: rgb(144, 202, 249);
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.nftImg {
+  width: 97%;
+  height: 300px;
+  border-radius: 3%;
+  margin: 5px 0;
+  filter: hue-rotate(90deg);
+}
+
+#cardDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cardDiv h5 {
+  margin: 5px;
+}
+
+#dltBtn,
+#edtBtn {
+  margin: 5px;
+  border-color: rgb(1, 30, 60);
+}
+
+#dltBtn {
+  background-color: rgb(11, 25, 41);
+  color: rgb(144, 202, 249);
+}
+
+#edtBtn {
+  color: rgb(11, 25, 41);
+  color: yellow;
+  color: rgb(11.25.41);
+}
