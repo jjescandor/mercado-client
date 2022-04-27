@@ -16,7 +16,7 @@
     margin: 10px;
 }
 
-.css-1160xiw-MuiPaper-root-MuiDrawer-paper {
+.MuiPaper-root {
     background-color: rgb(54, 52, 52) !important;
     width: 500px;
     display: flex;

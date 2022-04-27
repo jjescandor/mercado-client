@@ -69,6 +69,7 @@ class Profile extends React.Component {
       };
       const walletRes = await axios(config);
       console.log('wallet items', walletRes.data);
+      console.log("wallet", walletRes);
 
       this.setState({ wallet: walletRes.data });
       console.log(this.state.wallet);

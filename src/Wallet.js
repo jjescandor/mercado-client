@@ -37,27 +37,32 @@ class Wallet extends Component {
         open={this.props.showWalletDrawer}
         anchor="right"
         onClose={this.props.hideWalletDrawer}
+        class={"walletDrawer"}
       >
-        <h1>Wallet drawer</h1>
-
-        {this.props.wallet &&
-          this.props.wallet.map((item) => {
-            return (
-              <div>
-                <h6>{item.title}</h6>
-                <img id="walletIMG" src={item.imageURL} alt="" />
-                <h5>Price: {item.price} ETH</h5>
-                <button
-                  onClick={() => {
-                    this.setState({ walletItem: item });
-                    this.handleDeleteWalletItem();
-                  }}
-                >
-                  Remove from wallet
-                </button>
-              </div>
-            );
-          })}
+        <h4>Wallet drawer</h4>
+        <div className="walletCont">
+          {this.props.wallet &&
+            this.props.wallet.map((item, idx) => {
+              return (
+                <div className="itemDiv" key={item._id}>
+                  <img id="walletIMG" src={item.imageURL} alt="" />
+                  <div>
+                    <p>Item: {idx + 1}</p>
+                    <h6>{item.title}</h6>
+                    <h5>Price: {item.price} ETH</h5>
+                    <button
+                      onClick={() => {
+                        this.setState({ walletItem: item });
+                        this.handleDeleteWalletItem();
+                      }}
+                    >
+                      Remove from wallet
+                    </button>
+                  </div>
+                </div>
+              );
+            })}
+        </div>
         <Button href="/">
           <h5>
             <IoIosHome /> &nbsp; Home
